@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIResponder+Target.h
 //  CustomChainOfResponsibility
 //
 //  Created by Anastasia Kononova on 1/17/15.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIResponder (Target)
 
+@property (nonatomic, strong) id target;
+
+- (id)targetForProtocol:(Protocol *)protocol withSender:(id)sender;
 
 @end
-

@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		225517DD1A6ACC0F009C70C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225517DC1A6ACC0F009C70C3 /* main.m */; };
 		225517E01A6ACC0F009C70C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225517DF1A6ACC0F009C70C3 /* AppDelegate.m */; };
-		225517E31A6ACC0F009C70C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225517E21A6ACC0F009C70C3 /* ViewController.m */; };
-		225517E61A6ACC0F009C70C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225517E41A6ACC0F009C70C3 /* Main.storyboard */; };
 		225517E81A6ACC0F009C70C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225517E71A6ACC0F009C70C3 /* Images.xcassets */; };
 		225517EB1A6ACC0F009C70C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225517E91A6ACC0F009C70C3 /* LaunchScreen.xib */; };
 		225517F71A6ACC0F009C70C3 /* CustomChainOfResponsibilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225517F61A6ACC0F009C70C3 /* CustomChainOfResponsibilityTests.m */; };
+		225518031A6ACD95009C70C3 /* UIResponder+Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 225518021A6ACD95009C70C3 /* UIResponder+Target.m */; };
+		225518081A6DA2E4009C70C3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225518071A6DA2E4009C70C3 /* FirstViewController.m */; };
+		2255180B1A6DA2F3009C70C3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255180A1A6DA2F3009C70C3 /* SecondViewController.m */; };
+		2255180E1A6DA319009C70C3 /* StupidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255180D1A6DA319009C70C3 /* StupidViewController.m */; };
+		225518111A6DA414009C70C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225518101A6DA414009C70C3 /* ViewController.m */; };
+		225518171A6DA70C009C70C3 /* FirstProtocolImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 225518161A6DA70C009C70C3 /* FirstProtocolImpl.m */; };
+		2255181A1A6DA75F009C70C3 /* SecondProtocolImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 225518191A6DA75F009C70C3 /* SecondProtocolImpl.m */; };
+		2255181D1A6DA7BA009C70C3 /* StupidProtocolImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255181C1A6DA7BA009C70C3 /* StupidProtocolImpl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,30 @@
 		225517DC1A6ACC0F009C70C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		225517DE1A6ACC0F009C70C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		225517DF1A6ACC0F009C70C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		225517E11A6ACC0F009C70C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		225517E21A6ACC0F009C70C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		225517E51A6ACC0F009C70C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		225517E71A6ACC0F009C70C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		225517EA1A6ACC0F009C70C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		225517F01A6ACC0F009C70C3 /* CustomChainOfResponsibilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomChainOfResponsibilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225517F51A6ACC0F009C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		225517F61A6ACC0F009C70C3 /* CustomChainOfResponsibilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomChainOfResponsibilityTests.m; sourceTree = "<group>"; };
+		225518011A6ACD95009C70C3 /* UIResponder+Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Target.h"; sourceTree = "<group>"; };
+		225518021A6ACD95009C70C3 /* UIResponder+Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Target.m"; sourceTree = "<group>"; };
+		225518061A6DA2E4009C70C3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		225518071A6DA2E4009C70C3 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		225518091A6DA2F3009C70C3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2255180A1A6DA2F3009C70C3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2255180C1A6DA319009C70C3 /* StupidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StupidViewController.h; sourceTree = "<group>"; };
+		2255180D1A6DA319009C70C3 /* StupidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StupidViewController.m; sourceTree = "<group>"; };
+		2255180F1A6DA414009C70C3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		225518101A6DA414009C70C3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		225518121A6DA551009C70C3 /* FirstProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstProtocol.h; sourceTree = "<group>"; };
+		225518131A6DA560009C70C3 /* SecondProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondProtocol.h; sourceTree = "<group>"; };
+		225518141A6DA56F009C70C3 /* StupidProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StupidProtocol.h; sourceTree = "<group>"; };
+		225518151A6DA70C009C70C3 /* FirstProtocolImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstProtocolImpl.h; sourceTree = "<group>"; };
+		225518161A6DA70C009C70C3 /* FirstProtocolImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstProtocolImpl.m; sourceTree = "<group>"; };
+		225518181A6DA75F009C70C3 /* SecondProtocolImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondProtocolImpl.h; sourceTree = "<group>"; };
+		225518191A6DA75F009C70C3 /* SecondProtocolImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondProtocolImpl.m; sourceTree = "<group>"; };
+		2255181B1A6DA7BA009C70C3 /* StupidProtocolImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StupidProtocolImpl.h; sourceTree = "<group>"; };
+		2255181C1A6DA7BA009C70C3 /* StupidProtocolImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StupidProtocolImpl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +103,15 @@
 		225517D91A6ACC0F009C70C3 /* CustomChainOfResponsibility */ = {
 			isa = PBXGroup;
 			children = (
+				225518041A6DA2BD009C70C3 /* controllers */,
+				225518051A6DA2BD009C70C3 /* protocols */,
 				225517DE1A6ACC0F009C70C3 /* AppDelegate.h */,
 				225517DF1A6ACC0F009C70C3 /* AppDelegate.m */,
-				225517E11A6ACC0F009C70C3 /* ViewController.h */,
-				225517E21A6ACC0F009C70C3 /* ViewController.m */,
-				225517E41A6ACC0F009C70C3 /* Main.storyboard */,
 				225517E71A6ACC0F009C70C3 /* Images.xcassets */,
 				225517E91A6ACC0F009C70C3 /* LaunchScreen.xib */,
 				225517DA1A6ACC0F009C70C3 /* Supporting Files */,
+				225518011A6ACD95009C70C3 /* UIResponder+Target.h */,
+				225518021A6ACD95009C70C3 /* UIResponder+Target.m */,
 			);
 			path = CustomChainOfResponsibility;
 			sourceTree = "<group>";
@@ -117,6 +140,37 @@
 				225517F51A6ACC0F009C70C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		225518041A6DA2BD009C70C3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2255180F1A6DA414009C70C3 /* ViewController.h */,
+				225518101A6DA414009C70C3 /* ViewController.m */,
+				225518061A6DA2E4009C70C3 /* FirstViewController.h */,
+				225518071A6DA2E4009C70C3 /* FirstViewController.m */,
+				225518091A6DA2F3009C70C3 /* SecondViewController.h */,
+				2255180A1A6DA2F3009C70C3 /* SecondViewController.m */,
+				2255180C1A6DA319009C70C3 /* StupidViewController.h */,
+				2255180D1A6DA319009C70C3 /* StupidViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		225518051A6DA2BD009C70C3 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				225518121A6DA551009C70C3 /* FirstProtocol.h */,
+				225518131A6DA560009C70C3 /* SecondProtocol.h */,
+				225518141A6DA56F009C70C3 /* StupidProtocol.h */,
+				225518151A6DA70C009C70C3 /* FirstProtocolImpl.h */,
+				225518161A6DA70C009C70C3 /* FirstProtocolImpl.m */,
+				225518181A6DA75F009C70C3 /* SecondProtocolImpl.h */,
+				225518191A6DA75F009C70C3 /* SecondProtocolImpl.m */,
+				2255181B1A6DA7BA009C70C3 /* StupidProtocolImpl.h */,
+				2255181C1A6DA7BA009C70C3 /* StupidProtocolImpl.m */,
+			);
+			path = protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225517E61A6ACC0F009C70C3 /* Main.storyboard in Resources */,
 				225517EB1A6ACC0F009C70C3 /* LaunchScreen.xib in Resources */,
 				225517E81A6ACC0F009C70C3 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +272,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225517E31A6ACC0F009C70C3 /* ViewController.m in Sources */,
+				225518111A6DA414009C70C3 /* ViewController.m in Sources */,
+				2255180B1A6DA2F3009C70C3 /* SecondViewController.m in Sources */,
+				225518171A6DA70C009C70C3 /* FirstProtocolImpl.m in Sources */,
+				2255180E1A6DA319009C70C3 /* StupidViewController.m in Sources */,
+				225518031A6ACD95009C70C3 /* UIResponder+Target.m in Sources */,
+				225518081A6DA2E4009C70C3 /* FirstViewController.m in Sources */,
+				2255181D1A6DA7BA009C70C3 /* StupidProtocolImpl.m in Sources */,
+				2255181A1A6DA75F009C70C3 /* SecondProtocolImpl.m in Sources */,
 				225517E01A6ACC0F009C70C3 /* AppDelegate.m in Sources */,
 				225517DD1A6ACC0F009C70C3 /* main.m in Sources */,
 			);
@@ -244,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		225517E41A6ACC0F009C70C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				225517E51A6ACC0F009C70C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		225517E91A6ACC0F009C70C3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
