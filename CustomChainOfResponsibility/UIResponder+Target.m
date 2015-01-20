@@ -19,7 +19,9 @@ const void *propertyKeyName = @"targetPropertyKeyName";
         return self.target;
     }
     
-    return [self.nextResponder targetForProtocol:protocol withSender:sender];
+    self.target = [self.nextResponder targetForProtocol:protocol withSender:sender];
+    
+    return self.target;
 }
 
 - (id)target
